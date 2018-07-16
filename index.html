@@ -3,22 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Varnish Coding Evaluation</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
   </head>
   <body style="background: #F5F8FC; margin: 0;">
     <style scoped>
       body {
-        background:
+        font-family: 'Poppins', sans-serif;
       }
       #flex-container {
         display: flex;
         flex-direction: column;
       }
       #svg-container {
-        width:600px;
-        height: 400px;
+        width: 300px;
+        height: 150px;
         box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
         background-image: linear-gradient(to left top, #37ecba 0%, #72afd3 100%);
         border-radius: 5px;
+        margin: 10px 0 0 10px;
+      }
+      #print-viewport, #print-click {
+        margin: 10px 0 0 10px;
       }
     </style>
     <style media="all and (min-width: 600px)">
@@ -26,6 +31,14 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
+      }
+      #svg-container {
+        width: 600px;
+        height: 400px;
+      }
+      #print-viewport, #print-click {
+        margin: 0;
+        text-align: center;
       }
     </style>
     <div id="flex-container">
