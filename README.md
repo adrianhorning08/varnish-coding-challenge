@@ -19,10 +19,10 @@ your solution. You are free to design and style the above requirements as you se
 ## Explanation of Design Decisions
 I cheated a little bit. The SVG is not multi-colored, the div is. But I thought that since I was using Google Drawing, making an SVG that had many colors that also looked good, would be hard. I thought a css gradient was much easier.
 
-I chose to do a gradient because it is very popular now. I think seeing a modern aesthetic conveys to consumers that your company, and therefore your product, are up to date with the best trends in technology, design, etc.
+I chose to do a gradient because it is very popular now. I think seeing a modern aesthetic conveys to consumers that your company, and therefore your product, are up to date with the best trends in technology, design, etc. I chose green and blue because it looks like that is what the colors of your company are (or at least those are the prominent colors I saw on the homepage).
 
 I chose sans-serif fonts that were easy to read and also modern looking.
 
 I rounded the corners of the div containing the SVG to give it a smoother, modern look. There is also a slight box-shadow to make it a little more interesting.
 
-The background is a slight gray to make it a little more interesting than just white. 
+The background is a slight gray to make it a little more interesting than just white.
